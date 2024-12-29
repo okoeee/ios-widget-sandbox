@@ -36,7 +36,9 @@ struct MyWidgetEntryView: View {
     var entry: MyWidgetEntry
     
     var body: some View {
-        Text("Hello, Natsu!!")
+        Image("Image")
+            .resizable()
+            .scaledToFill()
     }
     
 }
